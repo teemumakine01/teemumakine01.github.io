@@ -14,10 +14,14 @@
       html {
         font-family: 'Bai Jamjuree', sans-serif;
         font-size: 18px;
-        padding: 15px;
         background: var(--dark);
         color: var(--light);
         line-height: 1.54;
+      }
+      .container {
+        max-width: 580px;
+        min-width: 450px;
+        margin: 0 auto;
       }
       .center {
         position: absolute;
@@ -42,8 +46,12 @@
       }
     </style>
   </head>
-  <body class="center">
-    <h2>404 Not found</h2>
-    <p>This is not the web page you are looking for. <a href="https://tprojects.me">Return home</a></p>
+  <body>
+    <div class="container">
+      <section class="center">
+        <h2>404 Not found</h2>
+        <p>This is not the web page you are looking for. <a href="">Return home</a></p>
+      </section>
+    </div>
   </body>
 </html>
