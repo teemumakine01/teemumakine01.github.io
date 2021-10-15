@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../assets/fonts/JetBrainsMono-Regular.woff2);
+}
+
+html {
+  padding: 15px;
+  line-height: 1.5;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+}
+
+#main {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
