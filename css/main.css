@@ -1,0 +1,22 @@
+:root {
+  --text: rgb(125 134 142);
+  --dark: rgb(0 0 0);
+}
+
+html {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  color: var(--text);
+  background: var(--dark);
+  padding: 15px;
+}
+
+.main {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  line-height: 1.5;
+}
