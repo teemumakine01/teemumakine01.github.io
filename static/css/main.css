@@ -42,6 +42,6 @@ a:hover {
 /* For mobile devices */
 @media only screen and (max-width: 600px) {
   p {
-    font-size: 14px !important;
+    font-size: 15px !important;
   }
 }
