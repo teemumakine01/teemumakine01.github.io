@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Breuer Text';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../font/breuertext-regular-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Breuer Text';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../font/breuertext-medium-webfont.woff2') format('woff2');
+}
+
+:root {
+  --body-color: #fffc;
+  --bg-color: #212529;
+  --link-color: #54aaf5;
+  --link-hover: #0084BE;
+}
+
+html {
+  padding: 15px;
+  line-height: 1.5;
+  font-family: 'Breuer Text';
+  font-size: 16px;
+  color: var(--body-color);
+  background: var(--bg-color);
+}
+
+h1,h2,h3 {
+  font-weight: 500;
+}
+
+.title {
+  text-align: center;
+}
+
+.container {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-hover);
+  transition: color 0.3s;
+}
+
+@media screen and (max-device-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
