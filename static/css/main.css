@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+:root {
+  --body-color: #fffc;
+  --bg-color: #212529;
+  --link-color: #54aaf5;
+  --link-hover: #0084BE;
+}
+
+html {
+  padding: 15px;
+  line-height: 1.5;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 14px;
+  color: var(--body-color);
+  background: var(--bg-color);
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-hover);
+  transition: color 0.3s;
+}
