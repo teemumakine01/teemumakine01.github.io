@@ -1,0 +1,30 @@
+html {
+  font-size: 16px;
+  font-family: monospace;
+  color: #00ff27;
+  background: #000000;
+  text-align: center;
+}
+
+.main {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.fading-logo {
+  animation:fading-logo 3s infinite
+}
+
+@keyframes fading-logo {
+  0% {
+   opacity:0
+  }
+  50% {
+   opacity:1
+  }
+  100% {
+   opacity:0
+  }
+}
