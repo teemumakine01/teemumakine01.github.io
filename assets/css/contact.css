@@ -1,0 +1,32 @@
+:root {
+  --bg-color: #000000;
+  --body-color: #00ff28;
+  --ff-body: 'Source Code Pro', monospace;
+}
+
+html {
+  padding: 15px;
+  font-size: 15px;
+  color: var(--body-color);
+  font-family: var(--ff-body);
+  background: var(--bg-color);
+}
+
+.container {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact {
+  line-height: 1.8;
+}
+
+a {
+  color: var(--body-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
