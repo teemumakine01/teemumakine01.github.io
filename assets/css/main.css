@@ -1,0 +1,130 @@
+@import url('normalize.css');
+@import url('font.css');
+
+/* Global CSS variables */
+:root {
+  --body-bg: #010409;
+  --body-color: #cdcdcd;
+  --link-color: #0074d9;
+  --link-color-hover: #005baa;
+  --heading-color: #ffffff;
+  --ff-body: 14px/1.8 'JetBrains Mono', monospace;
+  --fw-heading: 600;
+  --fw-body: 400;
+}
+
+html {
+  padding: 15px;
+  font: var(--ff-body);
+}
+
+@media (min-width: 30rem) {
+  html {
+    font-size: 14px;
+  }
+}
+
+body {
+  margin: 1rem 0;
+  color: var(--body-color);
+  background: var(--body-bg);
+}
+
+@media (min-width: 30rem) {
+  body {
+    font-size: 14px;
+    margin-top: 2rem;
+  }
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color .3s ease-in-out;
+}
+
+a:hover,
+a:focus {
+  color: var(--link-color-hover);
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--fw-heading);
+  margin: 0 0 0.3rem -0.1rem;
+  line-height: 1;
+  color: var(--heading-color);
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+p {
+  font-weight: var(--fw-body);
+}
+
+.title {
+  font-size: 16px;
+}
+
+@media (min-width: 30rem) {
+  h1 {
+    margin-bottom: 1.5rem;
+  }
+}
+
+h1 a {
+  color: inherit;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width: 30rem) {
+  h2 {
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+h3, h4, h5, h6 {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+p, ul, ol, dl, table, pre, blockquote {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ul, ol {
+  padding-left: 1.5rem;
+}
+
+dd {
+  margin-left: 1.5rem;
+}
+
+.nav {
+  text-align: right;
+  font-size: 12px;
+}
+
+.footer {
+  font-size: 12px;
+  margin-top: 4em;
+  text-align: center;
+}
+
+.container {
+  max-width: 45rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
